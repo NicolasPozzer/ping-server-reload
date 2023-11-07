@@ -13,8 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class Main {
     private static final List<String> URLs_TO_PING = Arrays.asList(
             "https://google.com",
-            "https://server-reload.onrender.com"
-
+            "https://project-nico.onrender.com"
             // Agrega todas las URLs que necesites aquí*/
     );
 
