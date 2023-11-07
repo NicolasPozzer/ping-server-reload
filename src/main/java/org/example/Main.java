@@ -13,9 +13,9 @@ import java.util.concurrent.TimeUnit;
 public class Main {
     private static final List<String> URLs_TO_PING = Arrays.asList(
             "https://google.com",
-            "https://nico-portfolio.fly.dev"
-            /*"http://example.com",
-            "http://another-url.com"
+            "https://project-nico.onrender.com",
+            "https://ping-server-reload.onrender.com"
+
             // Agrega todas las URLs que necesites aquí*/
     );
 
@@ -40,6 +40,6 @@ public class Main {
                     e.printStackTrace(); // Maneja cualquier excepción que pueda ocurrir durante la solicitud
                 }
             }
-        }, 0, 59, TimeUnit.SECONDS); // 0 segundos de demora inicial, luego ejecuta cada 15 segundos
+        }, 0, 4, TimeUnit.MINUTES); // 0 segundos de demora inicial, luego ejecuta cada 15 segundos
     }
 }
