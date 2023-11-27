@@ -14,7 +14,8 @@ public class Main {
     private static final List<String> URLs_TO_PING = Arrays.asList(
             "https://google.com",
             "https://project-nico.onrender.com",
-            "https://alertsn7-back.onrender.com"
+            "https://alertsn7-back.onrender.com",
+            "https://jose-backend.onrender.com"
             // Agrega todas las URLs que necesites aquí*/
     );
 
